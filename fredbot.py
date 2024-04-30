@@ -13,7 +13,7 @@ import os
 load_dotenv()
 
 # Load GROQ API Key
-groq_api_key = os.environ['GROQ_API_KEY']
+groq_api_key = st.secrets['GROQ_API_KEY']
 
 # the main program 
 def main():
