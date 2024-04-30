@@ -1,4 +1,4 @@
-I have created Fredbot as an example of a simple AI chatbot using open source products. It provides a similar function to ChaTGPT
+I have created Fredbot as an example of a simple AI chatbot using open source products. It provides a similar function to ChaTGPT.
 It is intended to be a learning tool coded in python and easy to understand
 The following products are utilised
   LLAMA 3  Large Language Model created by Meta (Facebook)
