@@ -10,7 +10,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 import os 
 
-load_dotenv('.env')
+load_dotenv()
 
 # Load GROQ API Key
 groq_api_key = os.environ['GROQ_API_KEY']
