@@ -1,3 +1,6 @@
+# Fred Chat bot created May 2024 Author Tony Duffy
+
+# Python libraries
 import streamlit as st
 import os
 from groq import Groq
@@ -10,12 +13,13 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 import os 
 
+# Load environment variable file
 load_dotenv()
 
 # Load GROQ API Key
 groq_api_key = st.secrets['GROQ_API_KEY']
 
-# the main program 
+# the main program control
 def main():
 
     st.title("Fred Chat Bot")
@@ -42,7 +46,7 @@ def main():
             llm=groq_chat,
             memory=memory
     )
-
+    # Conversation interaction
     if user_question:
         response = conversation(user_question)
         message = {'human':user_question,'AI':response['response']}
