@@ -23,7 +23,8 @@ groq_api_key = st.secrets['GROQ_API_KEY']
 def main():
 
     st.title("Fred Chat Bot")
-
+    
+    # Set bot memory to 5 interactions
     memory=ConversationBufferWindowMemory(value = 5)
 
     user_question = st.text_area("Ask Fred a question:")
