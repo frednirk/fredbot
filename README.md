@@ -8,6 +8,6 @@ The following products are utilised
   Steamlit Python tool for providing Graphical User Interface (GUI) ,
   Python 3 for the coding.
 
-This app can be easily expanded to be multimodel to incorporate image and video functions.
+This app can be easily expanded to be multimodal to incorporate image and video functions.
 
 It is free to use and modify.  Enjoy
