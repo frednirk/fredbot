@@ -10,4 +10,7 @@ The following products are utilised
 
 This app can be easily expanded to be multimodal to incorporate image and video functions.
 
-It is free to use and modify.  Enjoy
+It is free to use and modify.  
+
+Tony Duffy
+
