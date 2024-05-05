@@ -11,7 +11,7 @@ from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
-import os 
+
 
 # Load environment variable file
 load_dotenv()
